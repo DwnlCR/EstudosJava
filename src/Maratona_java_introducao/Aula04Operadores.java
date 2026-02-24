@@ -10,7 +10,6 @@ public class Aula04Operadores {
         System.out.println(resultado);
         resultado = num1 * num2;
         System.out.println(resultado);
-        // para fazer a divisao entre 2 numeros inteiros é necessario que o denominador seja casteado para double e o resultado q ira guardar essa ação seja double
         resultado = num1/(double) num2;
         System.out.println(resultado);
 

@@ -3,13 +3,14 @@ package Maratona_java_introducao;
 public class Aula04Operadores {
     public static void main(String[] args){
         // + - / *
-        int num1 = 10; // para fazer a divisao entre 2  numeros inteiros é necessario que o denominador seja casteado para double e o resultado q ira guardar essa ação seja double
+        int num1 = 10;
         int num2 = 20;
         double resultado = num1 + num2;
         System.out.println(num2 + num1 + " valor " + num2 + num1);
         System.out.println(resultado);
         resultado = num1 * num2;
         System.out.println(resultado);
+        // para fazer a divisao entre 2 numeros inteiros é necessario que o denominador seja casteado para double e o resultado q ira guardar essa ação seja double
         resultado = num1/(double) num2;
         System.out.println(resultado);
 

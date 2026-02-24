@@ -22,7 +22,4 @@ public class Aula02TiposPrimitivos {
         System.out.println(caractere);
         System.out.println(nome3);
     }
-
-    public static class Aula03 {
-    }
 }

@@ -1,7 +1,5 @@
 package Maratona_java_introducao;
 
-import java.util.Arrays;
-
 public class Aula04Operadores {
     public static void main(String[] args){
         // + - / *
@@ -20,7 +18,6 @@ public class Aula04Operadores {
         System.out.println(resto);
 
         // < > <= >= == !=
-
         boolean isDezMaiorQueVinte = 10 > 20;
         boolean isDezMenorQueVinte = 10 < 20;
         boolean isDezIgualAVinte = 10 == 20;
@@ -37,7 +34,6 @@ public class Aula04Operadores {
         float salario = 3500F;
         boolean isDentroDaLeiMaiorQue30 = idade > 30 && salario >= 4612;
         boolean isDentroDaLeiMenorQue30 = idade < 30 && salario >= 3381;
-
         System.out.println(isDentroDaLeiMaiorQue30);
         System.out.println(isDentroDaLeiMenorQue30);
 
@@ -64,8 +60,5 @@ public class Aula04Operadores {
         --contador; //--> Na hora que chega nele decrementa - 1
         System.out.println(contador++); // Resultado = 0
         System.out.println(++contador); // Resultado = 1;
-
-
-
     }
 }

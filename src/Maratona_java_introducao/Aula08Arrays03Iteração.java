@@ -12,7 +12,7 @@ public class Aula08Arrays03Iteração {
             System.out.println("Digite o nome da pessoa da posição "+i+": ");
             nomes[i] = input.nextLine();
         }
-        //Dinamico -> nomes.length mostra exatamente a quantidade de pessoas dentro do array
+        //Dinamico -> nomes.length mostra exatamente a quantidade de pessoas dentro do Array
         //for acompanha o array pois o indice é exato
         for(int i = 0; i < nomes.length; i++){
             System.out.println("Nome da pessoa da posição "+i+": "+nomes[i]);

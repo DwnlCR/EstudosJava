@@ -1,5 +1,5 @@
 package Maratona_java_javacore.Aintroducao.classes.test;
-
+//importar.dominio.Professor para usar a classe Professor
 import Maratona_java_javacore.Aintroducao.classes.dominio.Professor;
 
 public class ProfessorTest01 {
@@ -8,6 +8,7 @@ public class ProfessorTest01 {
         professor.nome = "Mestre Kami";
         professor.idade = 78;
         professor.sexo = 'M';
-        System.out.println("Nome: "+professor.nome+", Idade: "+professor.idade+" anos, Sexo: "+professor.sexo);
+        System.out.println("Nome: "+professor.nome+", Idade: "+
+                professor.idade+" anos, Sexo: "+professor.sexo);
     }
 }

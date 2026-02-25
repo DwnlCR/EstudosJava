@@ -1,6 +1,5 @@
 package Maratona_java_javacore.Aintroducao.classes.test;
-//tem que importar .dominio.Estudante para usar a classe Pessoa
-
+//tem que importar .dominio.Estudante para usar a classe Estudante
 import Maratona_java_javacore.Aintroducao.classes.dominio.Estudante;
 
 public class EstudanteTest01 {
@@ -8,7 +7,8 @@ public class EstudanteTest01 {
         //Criaremos um objeto de nome estudante do tipo Estudante que faz referencia a classe Estudante
         Estudante estudante = new Estudante();
         //Agora iremos colocar valores na variavel estudante do tipo Estudante
-        //logo temos 3 variaveis a serem preenchidas (colocar "estudante." para eles vizualizarem)
+        //logo temos 3 variaveis a serem preenchidas
+        //preenchemos usando objeto criado + . + atributo a ser preenchido
         estudante.nome = "Joaozinho";
         estudante.idade = 28;
         estudante.sexo = 'M';

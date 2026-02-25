@@ -13,9 +13,6 @@ public class Estudante {
     //Basicamente o q eu fiz acima foi tratar as informações de um professor dentro do escopo de um estudante
     //isso deixa o codigo pouco coeso e com muitas falhas apresentadas futuramente,
     //alem de ficar muito feio
-
     //O correto nesse caso é criar uma nova classe Professor para que as informações
-    //e o escopo de variaveis de um professor habitem nessa nova classe e não fique essa confusão,
-    //basicamete para ter um codigo com boa coesão,
-    //cada classe tem seu proposito unico e definido, sem ambiguidades
+    //e o escopo de variaveis de um professor habitem nessa nova classe e não fique essa confusão, essa ambiguidade
 }

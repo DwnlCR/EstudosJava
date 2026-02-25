@@ -29,14 +29,14 @@ public class Aula08ArraysMultidimensionais {
         dias[2][2] = 30; //No array que possui endereço referenciado por dias[2] na posição 2 (Novembro) recebe 30 dias
         dias[2][3] = 31; //No array que possui endereço referenciado por dias[2] na posição 3 (Dezembro) recebe 31 dias
 
-        for(int i = 0; i < dias.length; i++){ //Roda esse for 3 vezes por que é a quantidade de casas do array de endereços
-            for (int j = 0; j < dias[i].length; j++) { //Roda esse for 4 vezes por que é a quantidade de casas do array referenciado por dias[i], seja i = 0, 1 ou 2
+        for(int i = 0; i < dias.length; i++){//Roda esse for 3 vezes por que é a quantidade de casas do array de endereços
+            for (int j = 0; j < dias[i].length; j++) {//Roda esse for 4 vezes por que é a quantidade de casas do array referenciado por dias[i]
                 System.out.println(dias[i][j]);
             }
         }
         System.out.println("-----------------------");
-        for(int[] enderecos: dias){ //Precisamos para o Foreach que printa Arrays de arrays, uma variavel que recebe o primeiro Array dos endereços, um de cada vez, cada um dos endereços
-            for(int num: enderecos){ //Agora a variavel num a cada ciclo do for recebe um valor e assim recebe todos os valores de cada array de endereço
+        for(int[] enderecos: dias){//Precisamos para o Foreach que printa Arrays de arrays, uma variavel array que recebe o primeiro Array dos endereços
+            for(int num: enderecos){//Agora a variavel num a cada ciclo do for recebe um valor e assim recebe todos os valores de cada array
                 System.out.println(num);
             }
         }

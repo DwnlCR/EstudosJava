@@ -8,7 +8,9 @@ public class Aula08ArraysForeach {
         for(int i = 0; i < numeros3.length; i++){
             System.out.println(numeros3[i]);
         }
-        for(int i:numeros3) //Foreach: for utilizado para especificamente printar arrays, Obs: o indice utilizado deve ser do mesmo tipo do array
+        //Foreach: for utilizado para especificamente printar arrays
+        //Obs: o indice utilizado deve ser do mesmo tipo do array
+        for(int i:numeros3)
             System.out.println(i);
         }
     }

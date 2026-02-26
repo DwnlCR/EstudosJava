@@ -25,12 +25,10 @@ public class Calculadora {
         System.out.println("Subtração: " + num1 + " - " + num2 + " = " + (num1 - num2));
         System.out.println("Fim do calculo!\n");
     }
-
     public void multiplicarDoisNumeros(double num1, double num2) {
         System.out.println("Multiplicação: " + num1 + " * " + num2 + " = " + (num1 * num2));
         System.out.println("Fim do calculo!\n");
     }
-
     public void dividirDoisNumeros(double num1, double num2) {
         if (num2 == 0) {
             System.out.println("Divisão por 0, Invalido!");

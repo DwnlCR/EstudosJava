@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculadora {
     //Começar com Metodos sem parametros no dominio e depois mostrar como esses metodos atuariam com parametros no Test
-    public void somarDoisNumerosSemParametros() {
+    public void somarTresNumerosSemParametros() {
         Scanner input = new Scanner(System.in);
         double num1 = input.nextDouble();
         double num2 = input.nextDouble();

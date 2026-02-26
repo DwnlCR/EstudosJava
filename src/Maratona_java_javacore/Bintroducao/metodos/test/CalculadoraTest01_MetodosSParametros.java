@@ -8,6 +8,6 @@ public class CalculadoraTest01_MetodosSParametros {
         //Chamando nosso primeiro metodo **sem parametros**
         //Observar as diferenças na classe calculadora do dominio
         //chamamos um metodo utilizando Objeto.nomeDoMetodo();
-        calculadora.somarDoisNumerosSemParametros();
+        calculadora.somarTresNumerosSemParametros();
     }
 }

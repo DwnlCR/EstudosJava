@@ -14,6 +14,11 @@ public class CalculadoraTest02_MetodosCParametros {
         double num2 = input.nextDouble();
         System.out.println("Escolha uma operação: +, -, *, /");
         String op = input.next();
-        calculadora.calcular(num1, num2, op);//Metodo que concede escolha de operação ao usuario e engloba os outros metodos ja criados usando "argumentos" que sao os parametros pedidos pelo metodo no dominio
+        //Metodo que concede escolha de operação ao usuario
+        //e engloba os outros metodos ja criados
+        //usando "argumentos" que sao os parametros pedidos pelo metodo no dominio
+        calculadora.calcular(num1, num2, op);
     }
 }
+
+

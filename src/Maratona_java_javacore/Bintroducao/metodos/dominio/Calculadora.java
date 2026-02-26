@@ -12,12 +12,16 @@ public class Calculadora {
         System.out.println("Soma dos 3 numeros: " + (num1 + num2 + num3));
     }
 
-    public void somarDoisNumeros(double num1, double num2) {//Por que void, e o que significa, basicamente é como entregar uma maçã ao metodo de cortar, ele vai la e corta, se ele me devolver a maçã cortada então é um metodo que possui retorno, se ele apenas cortar e nao me devolver nada é por que é um metodo sem retorno, ou seja, um void
+    //Por que void? e o que significa? basicamente é como entregar uma maçã ao metodo de cortar
+    //ele vai la e corta, se ele me devolver a maçã cortada então é um metodo que possui retorno
+    //se ele apenas cortar e nao me devolver nada é por que é um metodo sem retorno, ou seja, um void
+    public void somarDoisNumerosComParametros(double num1, double num2) {
         System.out.println("Soma: " + num1 + " + " + num2 + " = " + (num1 + num2));
         System.out.println("Fim do calculo!\n");
     }
-
-    public void subtrairDoisNumeros(double num1, double num2) {//Parametros: seguindo a analogia da maçã, basicamente a maçã seria o parametro, onde o metodo vai cortar a maçã que entregarmos para ele, Tem como fazer metodos sem parametros é so definir aqui no dominio que valores serão usados
+    //Parametros: seguindo a analogia da maçã, basicamente a maçã seria o parametro
+    //onde o metodo vai cortar a maçã que entregarmos para ele
+    public void subtrairDoisNumeros(double num1, double num2) {
         System.out.println("Subtração: " + num1 + " - " + num2 + " = " + (num1 - num2));
         System.out.println("Fim do calculo!\n");
     }
@@ -38,7 +42,7 @@ public class Calculadora {
 
     public void calcular(double num1, double num2, String op) {
         if (op.equals("+")) {
-            somarDoisNumeros(num1, num2);
+            somarDoisNumerosComParametros(num1, num2);
         } else if (op.equals("-")) {
             subtrairDoisNumeros(num1, num2);
         } else if (op.equals("*")) {

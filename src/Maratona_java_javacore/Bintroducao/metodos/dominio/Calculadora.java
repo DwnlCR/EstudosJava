@@ -67,7 +67,7 @@ public class Calculadora {
     public void imprimeDivisaoDeDoisNumeros(double num1, double num2) {
         if (num2 == 0) {
             System.out.println("Divisão por 0: Invalido!!!");
-            return; //É um break versão metodo, porem só funciona com metodos sem retorno, ou seja, metodos void
+            return; //É um break versão metodo, porem só funciona em metodos void
         }
             System.out.println("imprimir resultado da divisão: " + num1 / num2);
     }

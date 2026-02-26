@@ -53,7 +53,10 @@ public class Calculadora {
     }
 
     //Metodos de retorno - Não é mais void
-    public double dividirDoisNumerosComRetorno(double num1, double num2) { //Basicamente agora que nao é mais um metodo void automaticamente cada metodo deve retornar algo, como é um metodo double, esse metodo abaixo deve retornar um Double
+    //Basicamente agora que não é mais um metodo void
+    //automaticamente cada metodo deve retornar algo
+    //como é um metodo double, esse metodo abaixo deve retornar um double
+    public double dividirDoisNumerosComRetorno(double num1, double num2){
         if (num2 == 0) {
             return 0; //Forma de parar a execução do codigo caso algo saia do planejado
         }

@@ -15,7 +15,7 @@ public class Funcionario_exe {
         for (double salario : salarios) {
             System.out.println(salario);
         }
-        //mediaSalarios(); -> parte final -> não precisamos mais chamar na main o mediaSalarios pois o imprime ja chama
+        mediaSalarios();
     }
 
     public void mediaSalarios() {

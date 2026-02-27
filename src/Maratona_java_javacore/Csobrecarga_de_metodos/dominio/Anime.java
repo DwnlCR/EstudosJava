@@ -11,18 +11,14 @@ public class Anime {
         this.tipo = tipo;
         this.episodios = episodios;
     }
-    //Agora sim vamos começar a falar sobre a sobrecarga de metodos
     //Digamos por exemplo que o metodo init esta ja funcionando em um site a anos
-    //com varias pessoas acessando exatamente essa estrutura
     //Porem seu instrutor chegou e falou q agora o metodo init deve ter mais um parametro
-    //então teremos que atualizar os atributos privados,
-    //os getters e setters, e por fim o init,
+    //então teremos que atualizar os atributos privados, os getters e setters, e por fim o init
     //mas isso faria com que os clientes ficassem insatisfeitos por gostar da versão anterior
     //Poderiamos fazer um init2 com a mesma estrutura do init porem com um parametro a mais e funcionaria
     //mas isso ficaria muito feio :/
     //Então vamos usar o conceito de sobrecarga de metodos aqui do java para fazer essa situação ficar bonita
     //a sobrecarga de metodos basicamente é ter 2 ou mais metodos com o mesmo nome porem com parametros diferentes
-    //porem os 2 ou mais funcionam, dependendo de quais parametros voce colocar entrara no init correspondente
     //Agora criaremos nosso novo init com um parametro a mais que o passado
     public void init(String nome, String tipo, int episodios, int ano) {
         //this.nome = nome; //Vemos um padrão, aqui temos nome, ou seja, um parametro do 1° init

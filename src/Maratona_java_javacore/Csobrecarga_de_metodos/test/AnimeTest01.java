@@ -16,7 +16,6 @@ public class AnimeTest01 {
         //Agora temos como opção o novo init de 4 parametros
         //envolvendo o atributo ano que não tinha no metodo init passado
         anime.init("Acchi Kocchi","Romance Escolar", 24, 2018);
-        //Mas nos ainda vamos fazer melhor, vamos voltar a classe principal Anime
         anime.imprime();
     }
 }

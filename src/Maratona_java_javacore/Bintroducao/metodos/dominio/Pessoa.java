@@ -30,7 +30,8 @@ public class Pessoa {
         }
         this.idade = idade;
     }
-    //Agora vamos criar um metodo que nos permite pegar esses valores dentro do atributo privado
+    //Agora vamos criar um metodo que nos permite "pegar"
+    //esses valores dentro do atributo privado
     public String getNome(){ //Não é void por que queremos retornar o valor que está dentro do atributo privado, é String pois o retorno deve ser o mesmo do atributo que queremos buscar
         return this.nome;
     }

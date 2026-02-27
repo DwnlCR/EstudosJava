@@ -25,7 +25,8 @@ public class Funcionario {
             media += salario;
         }
         media = media / salarios.length;
-        System.out.println("A média salarial desse vendedor nesses " + salarios.length + " meses foi de: " + media);
+        System.out.println("A média salarial desse vendedor nesses " + salarios.length
+                + " meses foi de: " + media);
     }
 
     //Agora vamos criar nossos metodos de recebimento de dados

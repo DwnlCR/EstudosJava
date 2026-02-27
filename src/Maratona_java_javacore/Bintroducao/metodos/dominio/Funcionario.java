@@ -1,6 +1,4 @@
 package Maratona_java_javacore.Bintroducao.metodos.dominio;
-
-
 public class Funcionario {
     private String nome = null; //Alterado public -> private
     private int idade = 0; //Alterado public -> private
@@ -19,7 +17,6 @@ public class Funcionario {
         }
         mediaSalarios();
     }
-
     public void mediaSalarios() {
         if (salarios == null) { //Se salarios não for inicializado
             return;

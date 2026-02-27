@@ -1,5 +1,4 @@
 package Maratona_java_javacore.Bintroducao.metodos.dominio;
-
 //Começo do estudo relacionado ao Acoplamento, Modificador de acesso private, get e set
 //Acoplamento basicamente é o quanto uma classe está conectada com a outra por exemplo Pessoa e PessoaTest01
 //Estão fortemente acopladas por ambas serem publicas -> isso é ruim

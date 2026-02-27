@@ -1,5 +1,4 @@
 package Maratona_java_javacore.Bintroducao.metodos.test;
-
 import Maratona_java_javacore.Bintroducao.metodos.dominio.Funcionario_exe;
 
 public class FuncionarioTestExercicio {

@@ -1,4 +1,6 @@
 package Maratona_java_javacore.Bintroducao.metodos.dominio;
+
+
 public class Funcionario {
     private String nome = null; //Alterado public -> private
     private int idade = 0; //Alterado public -> private
@@ -17,6 +19,7 @@ public class Funcionario {
         }
         mediaSalarios();
     }
+
     public void mediaSalarios() {
         if (salarios == null) { //Se salarios não for inicializado
             return;
@@ -25,8 +28,7 @@ public class Funcionario {
             media += salario;
         }
         media = media / salarios.length;
-        System.out.println("A média salarial desse vendedor nesses " + salarios.length
-                + " meses foi de: " + media);
+        System.out.println("A média salarial desse vendedor nesses " + salarios.length + " meses foi de: " + media);
     }
 
     //Agora vamos criar nossos metodos de recebimento de dados
@@ -35,24 +37,31 @@ public class Funcionario {
     public void setNome(String nome){
         this.nome = nome;
     }
+
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
     public void setSalarios(double [] salarios){
         this.salarios = salarios;
     }
-    public void setMedia(double media){
-        this.media = media;
-    }
+
+    //public void setMedia(double media){
+        //this.media = media;
+    //}
+
     public String getNome(){
         return nome;
     }
+
     public int getIdade() {
         return idade;
     }
+
     public double[] getSalarios() {
         return salarios;
     }
+
     public double getMedia() {
         return media;
     }

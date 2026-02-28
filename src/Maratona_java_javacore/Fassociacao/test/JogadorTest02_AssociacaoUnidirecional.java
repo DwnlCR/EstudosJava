@@ -24,9 +24,11 @@ public class JogadorTest02_AssociacaoUnidirecional {
         //Até então esses 2 são apenas objetos independentes um do outro sem relação alguma entre si, mas vamos mudar isso agora
         jogador1.setTime(time);//O que fizemos aqui basicamente foi preencher aquele espaço vazio private Time time;
         //que esta no objeto Jogador agora fazendo com que jogador1 tenha seu proprio nome e pertença a um time
-        //Agora usaremos o metodo imprime para mostrar as informações de jogador01 mas da forma q esta agora apenas seu nome será printado, então vamos adicionar o time no imprime -> Jogador
+        //Agora usaremos o metodo imprime para mostrar as informações de jogador01 mas da forma q esta agora apenas seu nome será printado
+        //então vamos adicionar o time no imprime -> Jogador
         //Agora sim nosso metodo imprime esta funcionando corretamente
         jogador1.imprime();
-        //Assim concluimos o relacionamento de 1 para muitos, onde existe um time para muitos jogadores, na proxima aula veremos o relacionamento de muitos para 1 (Escola e Professor)
+        //Assim concluimos o relacionamento de 1 para muitos, onde existe um time para muitos jogadores
+        //na proxima aula veremos o relacionamento de muitos para 1 (Escola e Professor)
     }
 }

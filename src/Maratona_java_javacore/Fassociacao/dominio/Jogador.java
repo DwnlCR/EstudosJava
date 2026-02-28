@@ -35,8 +35,8 @@ public class Jogador {
     public Time getTime() { //O retorno será um valor do tipo Objeto Time
         return time;
     }
-    public void setTime(Time time) { //Para que seja atribuido aos atributos privados iniciais
-        // o usuario deve digitar algo coerente pedido pelo Objeto Time para que esse valor seja atribuido sem dar erros
+    public void setTime(Time time) {//Para que seja atribuido ao atributo privado time
+        //o metodo setTime(); tem q receber um objeto Time
         this.time = time;
     }
 }

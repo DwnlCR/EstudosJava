@@ -1,5 +1,4 @@
 package Maratona_java_javacore.Fassociacao.dominio;
-
 public class Escola {
     //Aqui começaremos nosso estudo relacionado a associação unidirecional de muitos para 1
     //levando em consideração que precisamos de muitos professores para 1 escola mas o professor so pode trabalhar em uma escola
@@ -15,18 +14,15 @@ public class Escola {
         this.nome = nome;
         this.professores = professores;
     }
-    //Agora vamos criar nosso metodo imprime inicialmente apenas com o nome da escola
-    //e depois faremos nossa condição, se professor == nulo -> não podemos imprimir professor pq ele tem q existir primeiro né?
+    //Agora vamos criar nosso metodo imprime inicialmente apenas com o nome da escola e depois faremos nossa condição, se professor == nulo -> não podemos imprimir professor pq ele tem q existir primeiro né?
     public void imprime(){
         System.out.println(this.nome);
         if(professores == null){
            return; //break dos if nos metodos
         }
         //Agora vamos ver como seria a impressão dos professores agora com pelo menos um existindo, Vamos usar o foreach para isso
-        for(Professor professor : professores){//Aqui o que fizemos foi, criamos um atributo temporario
-            //com a mesma estrutura do array professores declarado inicialmente para pegar professor por professor e printar atravez do sout
-            System.out.println(professor.getNome());//Lembrando que aqui temos que buscar o nome do professor
-            //em outro Objeto, então usamos o get ja que é um atributo privado privado
+        for(Professor professor : professores){//Aqui o que fizemos foi, criamos um atributo temporario com a mesma estrutura do array professores declarado inicialmente para pegar professor por professor e printar atravez do sout
+            System.out.println(professor.getNome());//Lembrando que aqui temos que buscar o nome do professor em outro Objeto, então usamos o get ja que é um atributo privado privado
         }
     }
     public String getNome() {

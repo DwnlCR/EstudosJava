@@ -4,8 +4,7 @@ import Maratona_java_javacore.Fassociacao.dominio.Time;
 
 public class JogadorTest02_AssociacaoUnidirecional {
     public static void main(String[] args) {
-        //Agora que vimos Arrays com objetos finalmente podemos dar inicio as Associações
-        //Basicamente é um conceito bem parecido com banco de dados Associação é o relacionamento entre 2 objetos, vamos ver uns exemplos na vida real
+        //Basicamente é um conceito bem parecido com banco de dados, Associação é o relacionamento entre 2 objetos, vamos ver uns exemplos na vida real
         //por exemplo, uma pessoa vai jogar um Valorant da vida, quando essa pessoa vai jogar ela se torna um jogador
         //e ele so pode escolher um personagem para jogar por partida, então 1 jogador pode escolher 1 personagem para jogar uma partida
         //futuramente ele pode trocar de personagem? claro q sim, mas nada vai mudar o fato de que ele ainda sera 1 jogador usando 1 personagem
@@ -28,7 +27,6 @@ public class JogadorTest02_AssociacaoUnidirecional {
         //Agora usaremos o metodo imprime para mostrar as informações de jogador01 mas da forma q esta agora apenas seu nome será printado, então vamos adicionar o time no imprime -> Jogador
         //Agora sim nosso metodo imprime esta funcionando corretamente
         jogador1.imprime();
-
         //Assim concluimos o relacionamento de 1 para muitos, onde existe um time para muitos jogadores, na proxima aula veremos o relacionamento de muitos para 1 (Escola e Professor)
     }
 }

@@ -21,8 +21,10 @@ public class Escola {
            return; //break dos if nos metodos
         }
         //Agora vamos ver como seria a impressão dos professores agora com pelo menos um existindo, Vamos usar o foreach para isso
-        for(Professor professor : professores){//Aqui o que fizemos foi, criamos um atributo temporario com a mesma estrutura do array professores declarado inicialmente para pegar professor por professor e printar atravez do sout
-            System.out.println(professor.getNome());//Lembrando que aqui temos que buscar o nome do professor em outro Objeto, então usamos o get ja que é um atributo privado privado
+        for(Professor professor : professores){//Aqui o que fizemos foi, criamos um atributo temporario
+            //com a mesma estrutura do array professores declarado inicialmente para pegar professor por professor e printar atravez do sout
+            //Lembrando que aqui temos que buscar o nome do professor em outro Objeto então usamos o get ja que é um atributo privado privado
+            System.out.println(professor.getNome());
         }
     }
     public String getNome() {

@@ -13,9 +13,7 @@ public class Carro1 {
         System.out.println("---------------------------");
         System.out.println("Nome: "+this.nome);
         System.out.println("Velocidade Maxima: "+this.velocidadeMaxima);
-        System.out.println("Velocidade Limite: "+ this.velocidadeLimite); //*aqui não devemos
-        //mais usar o this.velocidadeLimite e sim o Carro.velocidadeLimite ja que essa velocidade
-        //n vale mais para apenas um objeto e sim para todos que forem criados
+        System.out.println("Velocidade Limite: "+ this.velocidadeLimite);
     }
     public String getNome() {
         return nome;

@@ -3,25 +3,12 @@ public class Jogador {
     //Antes de falarmos sobre associação e como é o seu funcionamento
     //vamos entender um pouco sobre arrays de objetos
     private String nome;
-    private Time time; //Aqui nos falamos que cada jogador tem seu time
-    //por isso chamamos o objeto Time como um dos atributos privados de Jogador
-    //assim fazemos nossa primeira associação entre Objetos
-    //descer la em baixo no getter e setter de time
     public Jogador(String nome) {
         this.nome = nome;
     }
     //Metodo imprime
-    //Adicionar o time do jogador para ser printado
     public void imprime(){
         System.out.println(this.nome);
-        //Primeiro vamos saber se ele colocou algum time ne?
-        //pq se ele n tiver colocado a gente n consegue printar o time
-        //vai sair um null pointer, um erro de tempo de execução
-        if(time != null){
-            //Time agora é um objeto e n mais somente um atributo privado de Jogador
-            //temos que usar o time.getNome() para pegar o nome desse time
-            System.out.println(time.getNome());
-        }
     }
     public String getNome() {
         return nome;

@@ -14,13 +14,7 @@ public class Jogador {
     //Adicionar o time do jogador para ser printado
     public void imprime(){
         System.out.println(this.nome);
-        //Primeiro vamos saber se ele colocou algum time ne?
-        //pq se ele n tiver colocado a gente n consegue printar o time
-        //vai sair um null pointer, um erro de tempo de execução
-        if(time != null){
-            //Time agora é um objeto e n mais somente um atributo privado de Jogador
-            //temos que usar o time.getNome() para pegar o nome desse time
-            System.out.println(time.getNome());
+
         }
     }
     public String getNome() {

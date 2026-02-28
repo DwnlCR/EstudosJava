@@ -1,7 +1,7 @@
 package Maratona_java_javacore.Fassociacao.dominio;
 public class Jogador {
     //Antes de falarmos sobre associação e como é o seu funcionamento
-    //vamos entender um pouco sobre arrays com objetos
+    //vamos entender um pouco sobre arrays de objetos
     private String nome;
     private Time time; //Aqui nos falamos que cada jogador tem seu time
     //por isso chamamos o objeto Time como um dos atributos privados de Jogador

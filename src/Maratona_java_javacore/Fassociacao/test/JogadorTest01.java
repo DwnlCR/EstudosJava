@@ -9,7 +9,7 @@ public class JogadorTest01 {
         Jogador jogador3 = new Jogador("Arrascaeta");
         //Agora vamos criar a variavel de referencia tipo array que guardará esses jogadores
         Jogador[] jogadores = new Jogador[]{jogador1, jogador2, jogador3};
-        //Basicamente o que fizemos na linha acima foi criar um array de endereços
+        //Basicamente o que fizemos na linha acima foi criar um array de endereços de objetos
         //que guarda os endereços jogador1, jogador2 e jogador3 que apontam para seus espaços de memoria respectivamente
         //ou seja agora cada objeto possui duas formas de serem acessados:
         //1º e mais convencional que é jogador1. ->  espaço de memoria de jogador1

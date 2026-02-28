@@ -14,7 +14,8 @@ public class Escola {
         this.nome = nome;
         this.professores = professores;
     }
-    //Agora vamos criar nosso metodo imprime inicialmente apenas com o nome da escola e depois faremos nossa condição, se professor == nulo -> não podemos imprimir professor pq ele tem q existir primeiro né?
+    //Agora vamos criar nosso metodo imprime inicialmente apenas com o nome da escola e depois faremos nossa condição
+    //se professor == nulo -> não podemos imprimir professor pq ele tem q existir primeiro né?
     public void imprime(){
         System.out.println(this.nome);
         if(professores == null){

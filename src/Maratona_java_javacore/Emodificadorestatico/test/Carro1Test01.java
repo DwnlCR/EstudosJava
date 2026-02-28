@@ -12,7 +12,7 @@ public class Carro1Test01 {
         //e ate então esta tudo bem, mas temos um problema
         //Queremos fazer com que a velocidade limite seja a mesma para os 3 carros
         //para q seja justo então vamos ao codigo fonte para ver isso
-        carro1.setVelocidadeLimite(270); //Eu posso apenas vir aqui e editar a velocidade limite da minha BMW
+        //carro1.setVelocidadeLimite(270); //Eu posso apenas vir aqui e editar a velocidade limite da minha BMW
         //fazendo com que ela esteja fora da lei de padronização de limite de velocidade
         //poderiamos apenas retirar o nosso set que acessa os valores e pode altera-los como fizemos em aulas passadas
         //mas tambem temos uma forma nova, muito melhor e muito mais eficaz de fazer isso
@@ -23,6 +23,7 @@ public class Carro1Test01 {
         //e faremos essas alterações todas de uma vez somente usando o comando abaixo com as alterações feitas na classe principal
         Carro1.velocidadeLimite = 270; //Isso vai dar erro pois atualmente nossa velocidadeLimite esta privada
         //vamos transforma-la em publica
+
         carro1.imprime();
         carro2.imprime();
         carro3.imprime();

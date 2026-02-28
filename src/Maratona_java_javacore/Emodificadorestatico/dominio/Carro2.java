@@ -22,7 +22,8 @@ public class Carro2 {
         //É Algo tipo: NomeDaClasse.atributoEstatico = atributoEstatico;
         Carro2.velocidadeLimite = velocidadeLimite;
     }
-    //Agora vamos fazer nosso getVelocidadeLimite usando o setVelocidadeLimite de exemplo
+    //Agora vamos fazer nosso getVelocidadeLimite
+    //usando o setVelocidadeLimite de exemplo
     public static double getVelocidadeLimite() {
         return Carro2.velocidadeLimite;
     }

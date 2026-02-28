@@ -3,10 +3,6 @@ public class Jogador {
     //Antes de falarmos sobre associação e como é o seu funcionamento
     //vamos entender um pouco sobre arrays de objetos
     private String nome;
-    private Time time; //Aqui nos falamos que cada jogador tem seu time
-    //por isso chamamos o objeto Time como um dos atributos privados de Jogador
-    //assim fazemos nossa primeira associação entre Objetos
-    //descer la em baixo no getter e setter de time
     public Jogador(String nome) {
         this.nome = nome;
     }
@@ -14,7 +10,6 @@ public class Jogador {
     //Adicionar o time do jogador para ser printado
     public void imprime(){
         System.out.println(this.nome);
-        }
     }
     public String getNome() {
         return nome;

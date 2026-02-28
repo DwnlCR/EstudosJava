@@ -14,7 +14,6 @@ public class Jogador {
     //Adicionar o time do jogador para ser printado
     public void imprime(){
         System.out.println(this.nome);
-
         }
     }
     public String getNome() {

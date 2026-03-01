@@ -6,7 +6,6 @@ public class Equipe {
     //Nessa aula aprenderemos como funcionam agora as Associaçoes bidirecionais
     //que é basicamente no nosso exemplo quando tanto a Equipe quanto o Participante tem informações um do outro
     //pois quando eram unidirecionais apenas um tinha privilegios em usar o outro e ater todas as informações
-    //Apos criarmos constructor getter e setter -> Participante
     public Equipe(String nome) {
         this.nome = nome;
     }

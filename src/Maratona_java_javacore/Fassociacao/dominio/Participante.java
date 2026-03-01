@@ -1,7 +1,7 @@
 package Maratona_java_javacore.Fassociacao.dominio;
 public class Participante {
     private String nome;
-    private Equipe equipe; //<- aqui esta a referencia de um objeto tipo Equipe
+    private Equipe equipe;
 
     public Participante (String nome) {
         this.nome = nome;
@@ -9,7 +9,9 @@ public class Participante {
     public void imprime() {
         System.out.println(this.nome);
         if (equipe != null) {
-            System.out.println(equipe.getNome());
+            System.out.println(equipe.getNome());//O que fizemos nesta linha foi:
+            //usar a referencia de equipe da Classe Equipe para acessar seus métodos
+            //get e set para pegar ou alterar o valor de seus atributos privados, nesse caso pegar
         }
     }
     public String getNome() {

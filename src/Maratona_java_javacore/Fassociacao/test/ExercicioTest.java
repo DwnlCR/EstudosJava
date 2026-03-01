@@ -1,9 +1,9 @@
 package Maratona_java_javacore.Fassociacao.test;
 import Maratona_java_javacore.Fassociacao.dominio.*;
 
-public class ProfessorTest {
+public class ExercicioTest {
     public static void main(String[] args) {
-        //Agora que nosso esquelto da aplicação esta pronto iremos começar a fazer um cadastro para um seminario
+        //Agora que nosso esqueleto da aplicação esta pronto iremos começar a fazer um cadastro para um seminario
         //Começaremos pela classe com menos relacionamentos -> Local
         LocalEx local = new LocalEx("Rua Cristovam Cavalcanti, Numero: 170");
 

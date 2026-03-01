@@ -23,7 +23,7 @@ public class ProfessorEx {
         if (seminarios == null) {
             return;
         }
-        System.out.println("### Seminarios Cadadstrados ###");
+        System.out.println("### Seminarios Cadastrados ###");
         //Vamos mostrar seminario por seminario dentro do array usando um foreach
         for (SeminarioEx seminario : this.seminarios) {
             //Não podemos apenas printar "seminario" achando que todas as informações vao vir de uma vez só, temos que ir usando os metodos get de SeminariosEx para pegar valor por valor
@@ -36,7 +36,7 @@ public class ProfessorEx {
             //Alunos é um array, então temos que mostrar aluno por aluno atravez de um foreach
             //Lembrando que ainda estamos dentro do foreach de seminarios para olhar seminario por seminario e ver cada aluno de cada seminario, ou seja é uma iteração de 2 for's basicamente como se estivessemos olhando um vetor de endereços em que cada bloco de endereço do vetor principal seminarios aponta para um vetor diferente de alunos
             for (AlunoEx aluno : seminario.getAlunos()) {//aqui a variavel local tipo Objeto Aluno se transformara em aluno por aluno com nome e idade que esta sendo recebido pelo getAlunos que esta dentro de cada seminario
-                System.out.println("Aluno: "+aluno.getNome()+" idade: "+aluno.getIdade());//Agora usamos nossa copia aluno de cada Objeto Aluno que esta presente no Array Alunos de seminario e usamos o getNome para pegar o nome e a idade de cada aluno da copia de Objeto de cada aluno
+                System.out.println("Aluno: "+aluno.getNome()+", idade: "+aluno.getIdade());//Agora usamos nossa copia aluno de cada Objeto Aluno que esta presente no Array Alunos de seminario e usamos o getNome para pegar o nome e a idade de cada aluno da copia de Objeto de cada aluno
             }
         }
     }

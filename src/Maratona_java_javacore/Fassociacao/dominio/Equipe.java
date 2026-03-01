@@ -17,7 +17,9 @@ public class Equipe {
             return;
         }
         for(Participante participante : participantes){
-            System.out.println(participante.getNome());//O que fizemos nesse metodo foi usar a referencia de participantes da Classe Participante
+            System.out.println(participante.getNome());//O que fizemos nesta linha foi:
+            //usar a referencia de participantes da Classe Participante para acessar seus métodos
+            //get e set para pegar ou alterar o valor de seus atributos privados, nesse caso pegar
         }
     }
     public String getNome() {

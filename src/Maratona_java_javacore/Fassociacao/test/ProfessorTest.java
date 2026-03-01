@@ -1,8 +1,7 @@
 package Maratona_java_javacore.Fassociacao.test;
-
 import Maratona_java_javacore.Fassociacao.dominio.*;
 
-public class ExercicioAssociaçãoTest {
+public class ProfessorTest {
     public static void main(String[] args) {
         //Agora que nosso esquelto da aplicação esta pronto iremos começar a fazer um cadastro para um seminario
         //Começaremos pela classe com menos relacionamentos -> Local

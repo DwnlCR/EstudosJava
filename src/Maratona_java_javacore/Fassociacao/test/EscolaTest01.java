@@ -8,9 +8,10 @@ public class EscolaTest01 {
         Professor professor02 = new Professor("Gleison");
         Professor professor03 = new Professor("Clovis");
         Professor[] professores = {professor01, professor02, professor03}; //Criaremos um array para guardar os professores
-        //Agora temos que relacionar a Tatiana com a UFC, podemos fazer isso atravez de uma sobrecarga de Construtor, vamos ao nosso Construtor e criaremos outro igual apenas com professor[] como parametro adicional
+        //Agora temos que relacionar a Tatiana com a UFC, podemos fazer isso atravez de uma sobrecarga de Construtor
         //Escola escola = new Escola("UFC"); //Não esta relacionado com os professores
-        Escola escola = new Escola("UFC", professores); //Agora sim a escola esta recebendo o array de professores e quando imprimirmos sairá da seguinte forma: nome da escola depois professores dessa escola
+        Escola escola = new Escola("UFC", professores); //Agora sim a escola esta recebendo o array de professores
+        //e quando imprimirmos sairá da seguinte forma: nome da escola depois professores dessa escola
         escola.imprime();
     }
 }

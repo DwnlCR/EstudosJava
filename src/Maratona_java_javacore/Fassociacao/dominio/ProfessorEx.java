@@ -1,5 +1,4 @@
 package Maratona_java_javacore.Fassociacao.dominio;
-
 public class ProfessorEx {
     private String nome;
     private String especialidade;
@@ -10,17 +9,13 @@ public class ProfessorEx {
         this.nome = nome;
         this.especialidade = especialidade;
     }
-
     //Sobrecarga de Construtor -> Agora vamos ir para a classe seminario novamente por que: seminario precisa ter um local
-
     public ProfessorEx(String nome, String especialidade, SeminarioEx[] seminarios) {
         this.nome = nome;
         this.especialidade = especialidade;
         this.seminarios = seminarios;
     }
-
     //Metodo imprime ☺
-
     public void imprime() {
         System.out.println("Professor: " + this.nome);
         System.out.println("Especialidade: " + this.especialidade);
@@ -45,29 +40,22 @@ public class ProfessorEx {
             }
         }
     }
-
     public String getNome() {
         return nome;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
-
     public String getEspecialidade() {
         return especialidade;
     }
-
     public void setEspecialidade(String especialidade) {
         this.especialidade = especialidade;
     }
-
     //getters e setters de seminarios
-
     public SeminarioEx[] getSeminarios() {
         return seminarios;
     }
-
     public void setSeminarios(SeminarioEx[] seminarios) {
         this.seminarios = seminarios;
     }

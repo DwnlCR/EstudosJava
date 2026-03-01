@@ -1,11 +1,7 @@
 package Maratona_java_javacore.Fassociacao.dominio;
 public class Equipe {
     private String nome;
-    private Participante [] participantes;//->Essa é a principal diferença entre a Associação unidirecional e a Associação bidirecional,
-    //se vc olhar bem direitinho irá perceber que ambos Equipe e Participante se referenciam em seus escopos, coisa que não tinhamos na unidirecional
-    //Nessa aula aprenderemos como funcionam agora as Associaçoes bidirecionais
-    //que é basicamente no nosso exemplo quando tanto a Equipe quanto o Participante tem informações um do outro
-    //pois quando eram unidirecionais apenas um tinha privilegios em usar o outro e ater todas as informações
+    private Participante [] participantes;
     public Equipe(String nome) {
         this.nome = nome;
     }

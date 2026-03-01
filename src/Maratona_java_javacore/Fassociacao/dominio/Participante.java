@@ -1,7 +1,7 @@
 package Maratona_java_javacore.Fassociacao.dominio;
 public class Participante {
     private String nome;
-    private Equipe equipe;
+    private Equipe equipe; //<- aqui esta a referencia de um objeto tipo Equipe
 
     public Participante (String nome) {
         this.nome = nome;
@@ -20,10 +20,10 @@ public class Participante {
     }
     //Da forma em que esta agora os jogadores são obrigados a declarar seu time inicialmente
     //mas ao adicionarmos nosso getter e setter para time ele pode escolher depois que time ele pertence
-    public Equipe getEquipe() { //O retorno será um valor do tipo Objeto Time
+    public Equipe getEquipe(){//O retorno será um objeto do tipo Equipe
         return equipe;
     }
-    public void setEquipe(Equipe equipe) { //Para que seja atribuido aos atributos privados iniciais o usuario deve digitar algo coerente pedido pelo Objeto Time para que esse valor seja atribuido sem dar erros
+    public void setEquipe(Equipe equipe){//A entrada será um objeto do tipo Equipe
         this.equipe = equipe;
     }
 }

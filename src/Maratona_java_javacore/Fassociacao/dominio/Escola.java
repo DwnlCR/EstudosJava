@@ -1,6 +1,5 @@
 package Maratona_java_javacore.Fassociacao.dominio;
 public class Escola {
-    //Aqui começaremos nosso estudo relacionado a associação unidirecional de muitos para 1
     //levando em consideração que precisamos de muitos professores para 1 escola mas o professor so pode trabalhar em uma escola
     private String nome;
     private Professor[] professores; //Um array de objetos professores com nomes e caracteristicas distintas

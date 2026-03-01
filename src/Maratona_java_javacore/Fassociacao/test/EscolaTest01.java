@@ -1,5 +1,4 @@
 package Maratona_java_javacore.Fassociacao.test;
-
 import Maratona_java_javacore.Fassociacao.dominio.Escola;
 import Maratona_java_javacore.Fassociacao.dominio.Professor;
 
